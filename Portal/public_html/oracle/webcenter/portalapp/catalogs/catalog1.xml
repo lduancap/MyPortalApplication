@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<catalogDefinition visible="${true}" id="catalog1"
+                   xmlns="http://xmlns.oracle.com/adf/rcs/catalog">
+  <contents xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+  <schema resourceBundle="oracle.adf.rc.attribute.nls.AttributeBundle"
+          xmlns="http://xmlns.oracle.com/adf/rcs/catalog">
+    <descriptor shortLabelKey="TITLE.SHORT_PROMPT_KEY"
+                labelKey="TITLE.PROMPT_KEY" endUserVisible="true"
+                multivalue="false" searchable="true" attributeId="Title"
+                xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+    <descriptor shortLabelKey="DESCRIPTION.SHORT_PROMPT_KEY"
+                labelKey="DESCRIPTION.PROMPT_KEY" endUserVisible="true"
+                multivalue="false" searchable="true" attributeId="Description"
+                xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+    <descriptor shortLabelKey="SUBJECT.SHORT_PROMPT_KEY"
+                labelKey="SUBJECT.PROMPT_KEY" endUserVisible="true"
+                multivalue="false" searchable="true" attributeId="Subject"
+                xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+    <descriptor shortLabelKey="TOOL_TIP.SHORT_PROMPT_KEY"
+                labelKey="TOOL_TIP.PROMPT_KEY" endUserVisible="true"
+                multivalue="false" searchable="false" attributeId="ToolTip"
+                xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+    <descriptor shortLabelKey="ICON_URI.SHORT_PROMPT_KEY"
+                labelKey="ICON_URI.PROMPT_KEY" endUserVisible="false"
+                multivalue="false" searchable="false" attributeId="IconURI"
+                xmlns="http://xmlns.oracle.com/adf/rcs/catalog"/>
+  </schema>
+</catalogDefinition>
